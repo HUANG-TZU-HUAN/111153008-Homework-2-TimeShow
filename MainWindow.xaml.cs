@@ -24,5 +24,10 @@ namespace _111153008_Homework_2
         {
             InitializeComponent();
         }
+
+        private void btnGo_Click(object sender, RoutedEventArgs e)
+        {
+            txtResult.Text = "Hello World!"; 
+        }
     }
 }
