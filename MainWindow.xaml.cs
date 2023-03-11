@@ -27,7 +27,7 @@ namespace _111153008_Homework_2
 
         private void btnGo_Click(object sender, RoutedEventArgs e)
         {
-            txtResult.Text = "Hello World!"; 
+            txtResult.Text = DateTime.Now.ToString(); 
         }
     }
 }

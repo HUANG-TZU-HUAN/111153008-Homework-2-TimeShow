@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TextBox x:Name="txtResult" HorizontalAlignment="Left" Margin="156,87,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="130" Height="43"/>
-        <Button x:Name="btnGo" Content="開始" HorizontalAlignment="Left" Margin="337,87,0,0" VerticalAlignment="Top" Height="44" Width="63" Click="btnGo_Click"/>
+        <TextBox x:Name="txtResult" HorizontalAlignment="Left" Margin="128,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="185" Height="73" FontSize="24"/>
+        <Button x:Name="btnGo" Content="顯示即時時間" HorizontalAlignment="Left" Margin="341,90,0,0" VerticalAlignment="Top" Height="44" Width="180" Click="btnGo_Click" FontSize="24" IsCancel="True"/>
 
     </Grid>
 </Window>
